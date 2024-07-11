@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+}
+
+#header{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black), url('https://talentodigitalparachile.cl/wp-content/uploads/2021/06/desarrollador-1288x724-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    /* mask-image: linear-gradient(black 80%, transparent); */
+    
+}
+#header_action{
+    flex: 1;
+}
+
+#header_titles{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.unordered_list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nombre{
+    color: aliceblue;
+}
+
+.funcion{
+    color: aqua;
+}
+
+.sobre_mi{
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    font-size: x-large;
+    color: white;
+}
+
+.descripcion{
+    text-align: center;
+    font-size: xx-large;
+    margin: 0;
+    color: white;
+}
+
+.habilidades{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+.B1{
+    color: white;
+    font-family: cursive;
+    font-size: large;
+    cursor: pointer;
+}
+ .B1:hover{
+    color: red;
+ }
+
+.B2{
+    color: white;
+    font-family: cursive;
+    font-size: large;
+    cursor: pointer;
+}
+.B2:hover{
+    color: red;
+ }
+
+.B3{
+    color: white;
+    font-family: cursive;
+    font-size: large;
+    cursor: pointer;
+}
+
+.B3:hover{
+    color: red;
+ }
+.B4{
+    color: white;
+    font-family: cursive;
+    font-size: large;
+    cursor: pointer;
+}
+
+.B4:hover{
+    color: red;
+ }
+
+
+
+#conteiner_SobreMi{
+    background: linear-gradient(to bottom, black, white );
+    padding: 100px;
+    height: 400px;
+    padding-top: 200px;
+    display: flex;
+}
+
+.mi_foto{
+    height: 300px;
+    mask-image: linear-gradient(black 80%, transparent);
+}
+
+
+
+
+.conteiner_habilidades{
+display: flex;
+}
+
+
+.imagin{
+    margin: 100px;
+    margin-top: auto;
+}
+
+.list{
+    font-family: cursive;
+    font-size: large;
+}
+
+
+
+#conteiner_contacto{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+.contáctame{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.input{
+    width: 100%;
+    height: 30px;
+    margin: 10px;
+}
+
+.input_message{
+    width: 100%;
+    height: 50px;
+
+}
+
