@@ -65,6 +65,7 @@ body{
     font-family: cursive;
     font-size: large;
     cursor: pointer;
+    text-decoration: none;
 }
  .B1:hover{
     color: red;
@@ -75,6 +76,7 @@ body{
     font-family: cursive;
     font-size: large;
     cursor: pointer;
+    text-decoration: none;
 }
 .B2:hover{
     color: red;
@@ -85,6 +87,7 @@ body{
     font-family: cursive;
     font-size: large;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .B3:hover{
@@ -95,6 +98,7 @@ body{
     font-family: cursive;
     font-size: large;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .B4:hover{
