@@ -60,52 +60,16 @@ body{
     font-family: cursive;
 }
 
-.B1{
+.enla_1{
     color: white;
     font-family: cursive;
     font-size: large;
     cursor: pointer;
     text-decoration: none;
 }
- .B1:hover{
+.enla_1:hover{
     color: red;
  }
-
-.B2{
-    color: white;
-    font-family: cursive;
-    font-size: large;
-    cursor: pointer;
-    text-decoration: none;
-}
-.B2:hover{
-    color: red;
- }
-
-.B3{
-    color: white;
-    font-family: cursive;
-    font-size: large;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.B3:hover{
-    color: red;
- }
-.B4{
-    color: white;
-    font-family: cursive;
-    font-size: large;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.B4:hover{
-    color: red;
- }
-
-
 
 #conteiner_SobreMi{
     background: linear-gradient(to bottom, black, white );
