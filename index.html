@@ -1,38 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ezequiel Llorca</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/imagen.png" type="image/png">
 </head>
 <body>
+       <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__items"><a href="#header" class="nav__link">Principio</a></li>
+                <li class="nav__items"><a href="#conteiner_SobreMi" class="nav__link">Sobre Mi</a></li>
+                <li class="nav__items"><a href="#conteiner_skills" class="nav__link">Habilidades</a></li>
+                <li class="nav__items"><a href="#conteiner_contacto" class="nav__link">Contacto</a></li>
+            </ul>
+        </nav>
     <header id="header">
-        <div id="header_action">
-                <ul class="unordered_list">
-                    <li>
-                        <a href="#header" class="enla_1">Principio</a>
-                    </li>
-                    <li>
-                        <a href="#conteiner_SobreMi" class="enla_1">Sobre Mi</a>
-                    </li>
-                    <li>
-                        <a href="#conteiner_skills" class="enla_1">Habilidades</a>
-                    </li>
-                    <li>
-                        <a href="#conteiner_contacto" class="enla_1">Contacto</a>
-                    </li>
-                </ul>   
-            <div id="header_titles">
-                    <h3 class="nombre">Eduardo Llorca</h3>
-                    <h1 class="funcion">Frontend developper</h1>
-            </div>    
-        </div>
+                <div id="header_titles">
+                        <h2 class="nombre">Eduardo Llorca</h2>
+                        <h1 class="funcion">Frontend developper</h1>
+                </div> 
     </header>
     <main>
         <div id="conteiner_SobreMi">
             <div class="conteiner_foto">
-                <img class="mi_foto" src="image/foto.jpg.jpg" alt="">
+                <img class="mi_foto" src="image/foto.jpg" alt="">
             </div>
             <div>
                 <p class="descripcion">Soy un programador de frontend apasionado por crear interfaces de usuario intuitivas, eficientes y visualmente atractivas. Con una sólida formación en tecnologías web y una atención meticulosa a los detalles, me especializo en transformar diseños conceptuales en aplicaciones web funcionales y receptivas.</p>
@@ -56,7 +49,7 @@
         </div>
         <section id="conteiner_contacto">
             <div class="contáctame">
-                <form class="form_contact">
+                <form>
                     
                         <input type="text" class="input" placeholder="your name">
                     
@@ -64,7 +57,7 @@
                     
                         <input type="text" class="input" placeholder="reason">
                     
-                        <textarea name="mensaje" class="input_message" placeholder="Message"></textarea>
+                        <input name="mensaje" class="input" placeholder="Message"></input>
                     
                         <input type="submit" class="input" placeholder="your name">
                 </form>
