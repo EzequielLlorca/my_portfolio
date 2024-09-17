@@ -1,21 +1,56 @@
-body{
+*{
     margin: 0;
 }
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
 
-#header{
-    height: 100vh;
+.nav{
+    position: fixed;
+    top: 0;
     width: 100%;
+    background-color: transparent;
+    z-index: 1000;
+}
+
+.nav__list{
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #2225;
+}
+
+
+.nav__link{
+    color: aquamarine;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-property: color, padding, font_size;
+    transition-duration: 1s;
+
+}
+
+.nav__link:hover{
+    color: #666;
+    padding: 20px;
+    font-size: 30px;
+     outline: 2px solid black;
+}
+
+
+#header{ 
+    height: 100vh;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black), url('https://talentodigitalparachile.cl/wp-content/uploads/2021/06/desarrollador-1288x724-1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    /* mask-image: linear-gradient(black 80%, transparent); */
-    
-}
-#header_action{
-    flex: 1;
+    background-attachment: fixed;
 }
 
 #header_titles{
@@ -25,32 +60,27 @@ body{
     margin-top: 200px;
 }
 
-.unordered_list{
-    display: flex;
-    justify-content: space-around;
-}
 
 .nombre{
     color: aliceblue;
+    padding-bottom: 50px;
 }
 
 .funcion{
     color: aqua;
 }
 
-.sobre_mi{
-    display: flex;
-    justify-content: center;
-    font-family: cursive;
-    font-size: x-large;
-    color: white;
-}
+
 
 .descripcion{
     text-align: center;
     font-size: xx-large;
     margin: 0;
     color: white;
+    font-family: sans-serif;
+    font-style: italic;
+    text-shadow: 0 0 5px #f88;
+    padding: 10px;
 }
 
 .habilidades{
@@ -60,19 +90,8 @@ body{
     font-family: cursive;
 }
 
-.enla_1{
-    color: white;
-    font-family: cursive;
-    font-size: large;
-    cursor: pointer;
-    text-decoration: none;
-}
-.enla_1:hover{
-    color: red;
- }
-
 #conteiner_SobreMi{
-    background: linear-gradient(to bottom, black, white );
+    background: linear-gradient(to bottom, transparent,black, white );
     padding: 100px;
     height: 400px;
     padding-top: 200px;
@@ -81,7 +100,9 @@ body{
 
 .mi_foto{
     height: 300px;
-    mask-image: linear-gradient(black 80%, transparent);
+    mask-image: linear-gradient(to left,black , transparent);
+    box-shadow: 0 0 40px #0007;
+    border-radius: 50%;
 }
 
 
@@ -89,12 +110,14 @@ body{
 
 .conteiner_habilidades{
 display: flex;
+box-shadow: 0 0 45px #009f;
 }
 
 
 .imagin{
     margin: 100px;
     margin-top: auto;
+    box-shadow: 0 0 100px #009f;
 }
 
 .list{
@@ -121,12 +144,10 @@ display: flex;
 .input{
     width: 100%;
     height: 30px;
-    margin: 10px;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    color: #f88;
+    border-top: 1px solid black;
+    box-shadow: 10px 0px 45px #9bafae;
 }
-
-.input_message{
-    width: 100%;
-    height: 50px;
-
-}
-
